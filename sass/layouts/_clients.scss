@@ -1,0 +1,35 @@
+.clients {
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 170px;
+        width: 100%;
+        height: 92px;
+        cursor: pointer;
+        border: 1px solid var(--icon-fill);
+        border-radius: 4px;
+        transition: var(--normal-timing-function);
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+        &:hover {
+            border: 1px solid var(--primary-color);
+        }
+    }
+
+    &__icon {
+        fill: var(--icon-fill);
+        transition: fill var(--normal-timing-function);
+    }
+}
+
+.clients__item:hover .clients__icon {
+    fill: var(--primary-color);
+}

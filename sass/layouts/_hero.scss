@@ -1,0 +1,13 @@
+.background {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #c4c4c4;
+    padding: 200px 0;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+
+    &__content {
+    }
+}

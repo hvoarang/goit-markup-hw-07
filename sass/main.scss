@@ -1,0 +1,23 @@
+// utils styles
+@import "utils/vars";
+@import "utils/vissually-hidden";
+
+// base style
+@import "base/reset";
+@import "base/container";
+
+// components style
+@import "components/title";
+@import "components/buttons";
+@import "components/modal";
+
+// layouts style
+
+@import "layouts/header";
+@import "layouts/hero";
+@import "layouts/prof";
+@import "layouts/section__prof";
+@import "layouts/team__info";
+@import "layouts/clients";
+@import "layouts/portfolio";
+@import "layouts/footer";

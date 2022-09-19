@@ -1,0 +1,40 @@
+.prof {
+    &__service {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 270px;
+    }
+
+    &__span {
+        max-width: 270px;
+        height: 120px;
+        background-color: #f5f4fa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+
+    &__icon {
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.01em;
+        color: var(--sub-txt-color);
+    }
+}

@@ -1,0 +1,43 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: list-item;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+span {
+    margin-bottom: 4px;
+}
+
+input {
+    outline: transparent;
+}
