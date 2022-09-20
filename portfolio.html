@@ -16,7 +16,6 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
@@ -94,17 +93,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_1.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img1l_1.jpg    1x,
+                        ./images/portfolio/img1l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img1m_1.jpg    1x,
+                        ./images/portfolio/img1m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img1s_1.jpg    1x,
+                        ./images/portfolio/img1s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img1s_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото відкритий лаптом"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Технокряк</h2>
                   <p class="portfolio__type">Веб-сайт</p>
@@ -114,17 +144,47 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_2.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img2l_1.jpg    1x,
+                        ./images/portfolio/img1l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img2m_1.jpg    1x,
+                        ./images/portfolio/img1m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img2s_1.jpg    1x,
+                        ./images/portfolio/img1s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img2s_1.jpg"
+                      width="370"
+                      height="294"
+                      alt="на фото баскетбольні гравці"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">
                     Постер New Orlean vs Golden Star
@@ -136,17 +196,47 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_3.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img3l_1.jpg    1x,
+                        ./images/portfolio/img1l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img3m_1.jpg    1x,
+                        ./images/portfolio/img1m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img3s_2.jpg    1x,
+                        ./images/portfolio/img2s@2x_2.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img3l_1.jpg"
+                      width="370"
+                      height="294"
+                      class="portfolio__img"
+                      alt="на фото логотип фірми у вигляді риби"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Ресторан Seafood</h2>
                   <p class="portfolio__type">Додаток</p>
@@ -156,17 +246,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_4.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img4l_1.jpg    1x,
+                        ./images/portfolio/img1l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img4m_1.jpg    1x,
+                        ./images/portfolio/img1m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img4s_1.jpg    1x,
+                        ./images/portfolio/img1s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img4s_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото навушники"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Проєкт Prime</h2>
                   <p class="portfolio__type">Маркетинг</p>
@@ -176,17 +297,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_5.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img5l_1.jpg    1x,
+                        ./images/portfolio/img5l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img5m_1.jpg    1x,
+                        ./images/portfolio/img5m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img5s_1.jpg    1x,
+                        ./images/portfolio/img5s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img5s_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото коробки"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Проєкт Boxes</h2>
                   <p class="portfolio__type">Додаток</p>
@@ -196,17 +348,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_6.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img6l_1.jpg    1x,
+                        ./images/portfolio/img6l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img6m_1.jpg    1x,
+                        ./images/portfolio/img6m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img6s_1.jpg    1x,
+                        ./images/portfolio/img6s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img6s_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото монітор з аналітикою"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Inspiration has no Borders</h2>
                   <p class="portfolio__type">Веб-сайт</p>
@@ -216,17 +399,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_7.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img7l_1.jpg    1x,
+                        ./images/portfolio/img7l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img7m_1.jpg    1x,
+                        ./images/portfolio/img7m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img7s_1.jpg    1x,
+                        ./images/portfolio/img7s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img7s_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото відкритий журнал"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Видання Limited Edition</h2>
                   <p class="portfolio__type">Дизайн</p>
@@ -236,17 +450,48 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_8.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img8l_1.jpg    1x,
+                        ./images/portfolio/img8l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img8m_1.jpg    1x,
+                        ./images/portfolio/img8m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img8s_9.jpg    1x,
+                        ./images/portfolio/img8s@2x_9.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img8s_9.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на офто бирка з логотипом"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
+
                 <div class="portfolio__content">
                   <h2 class="portfolio__name">Проєкт LAB</h2>
                   <p class="portfolio__type">Маркетинг</p>
@@ -256,11 +501,41 @@
             <li class="portfolio__items">
               <a href="#" class="portfolio__cards-link">
                 <div class="tap">
-                  <img
-                    class="portfolio__img"
-                    src="images/portfolio/prtf_9.jpg"
-                    alt="відкритий лаптом "
-                  />
+                  <picture>
+                    <source
+                      media="(min-width: 1200px)"
+                      srcset="
+                        ./images/portfolio/img9l_1.jpg    1x,
+                        ./images/portfolio/img9l@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img9m_1.jpg    1x,
+                        ./images/portfolio/img9m@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img9l_1.jpg    1x,
+                        ./images/portfolio/img9s@2x_1.jpg 2x
+                      "
+                      type="image/jpg"
+                    />
+                    <img
+                      src="./images/portfolio/img9l_1.jpg"
+                      width="370"
+                      height="294"
+                      class="images-portfolio"
+                      alt="на фото людина друкує на ноутбуці"
+                      class="portfolio__img"
+                    />
+                  </picture>
+
                   <p class="description">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу

@@ -591,8 +591,8 @@ input {
   background-position: center;
   background-color: #c4c4c4;
   padding: 200px 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg/Img-l_1.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg/Img-l_1.jpg);
 }
 .prof__service {
   display: -webkit-box;
@@ -715,7 +715,7 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.social__item:not(:last-child) {
+.social__item-bg:not(:last-child) {
   margin-right: 10px;
 }
 .social__link {
